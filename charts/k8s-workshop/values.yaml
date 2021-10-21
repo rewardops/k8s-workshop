@@ -124,12 +124,12 @@ jxRequirements:
     # the domain for hosts
     domain: ""
     externalDNS: false
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: .
     serviceType: ""
     tls:
-      email: ""
-      enabled: false
-      production: false
-      secretName: ""
+      email: admin@rewardops.io
+      enabled: true
+      production: true
+      secretName: tls-jx-rewardops-io-p
 
 
