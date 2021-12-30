@@ -13,7 +13,7 @@ spec:
     optional: false
     skip_report: true
     trigger: "/jx chuck"
-    rerun_command: "jx chuck"
+    rerun_command: "/jx chuck"
     source: "chuck.yaml"
   postsubmits:
   - name: release
