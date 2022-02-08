@@ -18,7 +18,7 @@ spec:
       containers:
         - name: hello-world
           imagePullPolicy: Always
-          image: rewardops/k8s-workshop:latest
+          image: hello-world
           ports:
             - containerPort: 8000
           volumeMounts:
